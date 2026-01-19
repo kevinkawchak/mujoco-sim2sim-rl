@@ -9,6 +9,12 @@ This project trains a Humanoid agent using Proximal Policy Optimization (PPO) in
 - `train_dr_terrain.py`: Training on randomized slopes.
 - `eval_sim_transfer.py`: Zero-shot evaluation of MuJoCo policy in PyBullet.
 
+## [Videos](https://drive.google.com/drive/folders/1etwV8i9aJuS9NeHBnQIZQjk_-ldd6ZRC?usp=sharing)
+- `humanoid_baseline.mp4`: Standard training on Humanoid-v4.
+- `humanoid_physics_dr.mp4`: Training with randomized friction, mass, and timestep.
+- `humanoid_sensor_dr.mp4`: Training with sensor noise and delays.
+- `humanoid_terrain_dr.mp4`: Training on randomized slopes.
+
 ## Usage
 1. Install dependencies: `pip install "gymnasium[mujoco]" stable-baselines3 pybullet`
 2. Run playback: `python play_mujoco.py humanoid_physics_dr`
