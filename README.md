@@ -2,6 +2,12 @@
 
 This project trains a Humanoid agent using Proximal Policy Optimization (PPO) in MuJoCo. It implements Domain Randomization to facilitate Sim-to-Sim transfer.
 
+## [Sim-to-Sim Videos](https://drive.google.com/drive/folders/1etwV8i9aJuS9NeHBnQIZQjk_-ldd6ZRC?usp=sharing)
+
+<picture>
+  <img src="assets/mujoco-sim2sim-rl-physics.jpg" alt="Main">
+</picture>
+
 ## Files
 - `train_baseline.py`: Standard training on Humanoid-v4.
 - `train_dr_physics.py`: Training with randomized friction, mass, and timestep.
@@ -14,7 +20,7 @@ This project trains a Humanoid agent using Proximal Policy Optimization (PPO) in
 2. Run playback: `python play_mujoco.py humanoid_physics_dr`
 
 ## Videos
-- `humanoid_baseline.mp4`: Standard training on Humanoid-v4 [Video](https://drive.google.com/drive/folders/1etwV8i9aJuS9NeHBnQIZQjk_-ldd6ZRC?usp=sharing).
+- `humanoid_baseline.mp4`: Standard training on Humanoid-v4.
 - `humanoid_physics_dr.mp4`: Training with randomized friction, mass, and timestep.
 - `humanoid_sensor_dr.mp4`: Training with sensor noise and delays.
 - `humanoid_terrain_dr.mp4`: Training on randomized slopes.
