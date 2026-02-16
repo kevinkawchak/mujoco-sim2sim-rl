@@ -24,3 +24,5 @@ Mean Reward: Start: ~61, End: ~306. (Agents achieved forward motion by over 5x)
 This study serves as a foundational proof-of-concept for the Sim-to-Real pipeline (operating real robots), demonstrating that "imperfect" training simulations are, paradoxically, the key to perfect real-world performance. Videos are available through the GitHub repository.
 
 kevinkawchak. “GitHub - Kevinkawchak/Mujoco-Sim2sim-Rl: Sim-To-Sim Reinforcement Learning with MuJoCo and Stable-Baselines3.” GitHub, 19 Jan. 2026, https://lnkd.in/g5_Yr5jd.
+
+- Post by Kevin Kawchak
